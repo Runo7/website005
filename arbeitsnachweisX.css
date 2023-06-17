@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 1rem; /* Hinzugefügt: 1rem Abstand zur linken und rechten Seite */
+  }
+  
+  #container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem; /* Hinzugefügt: 1rem Abstand nach unten */
+  }
+  
+  #logo {
+    display: block;
+    width: 100px;
+  }
+  
+  #firmenname,
+  #strasse,
+  #stadt,
+  #kundenname,
+  #kundenstrasse,
+  #kundenstadt {
+    margin-bottom: 10px;
+  }
+  
+  #objekt-label,
+  #mieter-label,
+  #auftrag-label,
+  #material-label,
+  #massnahme-label,
+  #monteur-label,
+  #kunde-label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .kundeKopfzeile {
+    margin-top: 7.05rem;
+  }
+  
+  .hr1 {
+    margin-bottom: 5rem;
+  }
+  
+  #objekt-section,
+  #mieter-section,
+  #auftrag-section,
+  #material-section,
+  #massnahme-section,
+  #monteur-section,
+  #kunde-section {
+    margin-bottom: 1rem; /* Hinzugefügt: 1rem Abstand nach unten */
+  }
+  
